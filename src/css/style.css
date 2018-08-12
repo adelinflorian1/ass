@@ -1,0 +1,270 @@
+body{
+    font-family: 'SuisseIntlBook', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100px;
+    vertical-align: top;
+    transition: all 0.3s linear 0s;
+}
+.container{
+    overflow: hidden;
+    position:relative;
+    margin:-10px;
+    height: 975px;
+    background: url("../img/back.jpg") center;
+    background-size:cover;
+}
+img {
+    max-width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+li{
+    display:inline-block;
+    margin: 25px;
+    margin-top:10px;
+}
+
+.mid{
+    display: inline-block;
+    width:50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.third{
+    top:0;
+    display: inline-block;
+    width:32%;
+    height: 100%;
+    overflow:hidden;
+}
+
+.sixth{
+    margin-top:-10px;
+    display: inline-block;
+    width:16%;
+    height: 70px;
+}
+.menuItem{
+    text-align: center;
+    float: right;
+    display: inline-block;
+    width:20%;
+    height: 100%;
+    padding: 25px 0px 35px 0px;
+}
+
+.menuItem:hover, #testride:hover, #cart:hover{
+    background-color: white;!important;
+    cursor: pointer;
+    color:black;
+}
+
+#cart{
+    background-color: rgb(255,52,101);
+    color:white;
+}
+
+#testride{
+    background-color: black;
+    color:white;
+}
+
+.circle{
+    padding-top: 5px;
+    margin-right: 10px;
+    float:right;
+    width:25px;
+    height:25px;
+    border-radius: 13px;
+    border: 1px solid white;
+}
+
+.text{
+    font-size:120px;
+    left: 1.5%;
+    bottom:35%;
+    position:absolute;
+    float:bottom;
+
+}
+
+.textRed{
+    font-size:120px;
+    color: rgb(255,52,101);
+}
+
+.textBlack{
+    font-size:120px;
+    color: black;
+}
+
+.text1{
+    bottom:25%;
+    color:rgb(255,52,101);
+}
+
+.text2{
+    font-size:20px;
+    bottom:20%;
+    color:rgb(255,52,101);
+}
+
+@keyframes slide-up {
+    from {
+        margin-top: 100%;
+    }
+
+    to {
+        margin-top: 0%;
+    }
+}
+
+.slide{
+    height:900px;
+    float:bottom;
+    position:relative;
+    overflow: hidden;
+    animation: 2s slide-up;
+}
+
+.link{
+    font-weight:bold;
+    color:rgb(255,52,101);
+}
+
+.container2{
+    padding-top: 10px;
+    background-color: rgb(255,52,101);
+    margin:-10px;
+    height: 250px;
+    border:1px solid black;
+}
+
+.item{
+    margin-left: 20px;
+    display:inline-block;
+    width:18%;
+    height:230px;
+}
+
+.item:hover{
+    cursor:pointer;
+}
+
+.grid{
+    overflow: hidden;
+    margin: 10px -45px -10px -10px;
+    height:3000px;
+}
+
+.gridItem{
+    margin: -5px -25px -5px -5px;
+    background-color:rgb(242,242,242) ;
+    overflow: hidden;
+    padding-left: 80px;
+    padding-top: 80px;
+    padding-right: 40px;
+    text-align: left;
+    position:relative;
+    display: inline-block;
+    width:50%;
+    height:30%;
+}
+
+.textNormal{
+    font-size: 30px;
+    margin: 40px 0 40px 0;
+}
+
+#gridItem2{
+    background: url("../img/back2.png") center no-repeat;
+    background-size: cover;
+}
+
+#gridItem3{
+    background: url("../img/back3.jpg") center no-repeat;
+    background-size: cover;
+}
+
+#gridItem6{
+    background: url("../img/back6.png") center no-repeat;
+    background-size: cover;
+}
+
+.info{
+    background-color: rgb(250,250,250);
+    padding:80px;
+    margin-top:-325px;
+    margin-right:-10px;
+}
+
+.cards{
+    background-color: rgb(250,250,250);
+    text-align: center;
+    width:100%;
+    height: 100%;
+    padding:50px;
+}
+
+.card{
+    background-color: white;
+    padding: 25px;
+    text-align: left;
+    overflow: hidden;
+    display:inline-block;
+    width:24%;
+    height:500px;
+}
+
+.name{
+    width: 100%;
+    height: 20%;
+    font-size:50px;
+}
+.desc{
+    overflow:hidden;
+
+    width: 100%;
+    height: 40%;
+    font-size:15px;
+    color:lightgray;
+}
+.date{
+    width: 100%;
+    height: 40%;
+    font-size:30px;
+    color:lightgray;
+}
+
+.viewMore{
+    color:gray;
+}
+
+.bottom{
+    padding: 0 30px 30px;
+    background-color: rgb(250,250,250); ;
+}
+.arrow{
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+    width:25px;
+    height: 25px;
+    background-color:red;
+}
+.arrow:hover{
+    cursor: pointer;
+}
+#seeAll{
+    float:right;
+}
